@@ -1,0 +1,26 @@
+start = root 
+root = element xml {poem}
+poem = element poem {meta , title , author , (num , para)+}
+meta = element meta {coder, codedWhen, empty}
+title = element title {text, empty}
+author = element author {text, empty}
+num = element num {paragraph* , text , empty}
+para = element para {n* , mixed {(month | mortality | city | nature | sky | color | fire)*}}
+month = element month {text, empty}
+mortality = element mortality {text, empty}
+city = element city {text | empty | mortality}
+nature = element nature {text , empty}
+sky = element sky {text, empty}
+color = element color {text, empty}
+fire = element fire {text, empty}
+
+coder = attribute coder {"edm" | text}
+codedWhen = attribute codedWhen {"2021-08-23" | text}
+paragraph = attribute paragraph {xsd:integer}
+n = attribute n {xsd:integer}
+
+
+
+
+#I know that this is a relatively simple one to .rnc, but I feel like I still need to work on .xml's that are more bite-sized
+#Yet I am still having a struggle :')

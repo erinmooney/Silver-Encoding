@@ -1,0 +1,32 @@
+start = root
+root = element xml {source, text}
+source = element source {title, altTitle, author, pubPlace , publisher , date , note}
+text = element text {poem, line, title, lineGroup, emph, placeName, place, mixed {(ref, level, id, n, type)*}}
+
+#Having a tough time getting source and text to be green. 
+#At one point, the block was good and green.
+#But you know what they say...It's not easy being green. 
+
+date = element date {when, text, empty}
+note = element note {empty , text}
+author = element author {empty , text}
+title = element title {level , empty, text}
+emph = element emph {empty , text}
+poem = element poem {id, text, empty}
+altTitle = element altTitle {empty , text}
+publisher = element publisher {empty , text}
+pubPlace = element pubPlace {where, text, empty}
+place = element place {ref, empty , text}
+motif = element motif {empty | text}
+placeName = element placeName {ref, empty , text}
+line = element line {n | empty | mixed {(placeName | place | motif | emph | text)*}}
+lineGroup = element lineGroup {line | poem | text}
+
+
+type = attribute type {"trainStat" | text | empty}
+ref = attribute ref {"NYC-Bronx" | "NYC-PennSt" | text | empty}
+level = attribute level {"book" | "inner" | text}
+where = attribute where {"NYC" , empty}
+when = attribute when {"1951" , empty}
+n = attribute n {xsd:integer}
+id = attribute id {"harlem" | "goodMorning" | text}

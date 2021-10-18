@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xml> <docInfo>
+        <title>XML is 20</title>
+        <subtitle>Tim Bray on XML's 20th birthday</subtitle> <!--edm: missing / in front of the end tag-->
+        <author id="Bray_Tim">Tim Bray</author>
+        <publication type="digital" target="https://www.xml.com/articles/2018/02/10/xml-20/">XML.com</publication>
+            <pubDate when="2018-02-10"/> <!--edm: / missing at the end-->
+        <copyright>Article contents © 2018 Tim Bray</copyright>    <!--edm: End tag says copyRight instead of copyright-->
+    </docInfo>
+    <body>
+        <quote source="Beatles"><p>“It was twenty years ago today/Sergeant Pepper taught the band to    <!--edm: missing ending <p> tag-->
+            play..."</p></quote>. Actually, it was <duration quantity="21.5" unit="year">21½ years ago  <!--edm: missing "" with attributes-->    
+                today</duration> that <persName>Jon Bosak</persName> pulled together the original
+            <orgName>XML Working Group</orgName>. But yes, it was <event>on <date
+                when="1998-02-10">February 10, 1998</date> that <codeSpec>XML 1.0</codeSpec> was      <!--edm: missing = with when attribute-->
+                released to the world</event>. Which is worth talking about.
+        <p>It turns out that if you follow the pointers back, the original <codeSpec>XML 1.0
+            Specification</codeSpec> is still out there &amp; <rs type="person" ref="Bray_Tim">my           <!--edm: / at the back instead of front in ending tag. The & sign also needs to be written as &amp;-->
+                fingers</rs> were the last to touch that document. The history of how XML came to be        <!--edm: ending <rs> tag missing /-->
+            has been told at great length elsewhere, as have the details about <date
+                when="1998-02-10">that February 10th</date>, so there’s no need to revisit.</p>
+        <p>
+            <event when="2018-02-10">Happy birthday!</event></p>  <!--edm: <p> tag needs to be outside the <event> tag-->
+        
+        
+    </body>
+   </xml>      <!--edm: missing xml tag-->
+

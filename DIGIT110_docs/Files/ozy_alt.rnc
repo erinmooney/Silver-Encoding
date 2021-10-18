@@ -1,0 +1,15 @@
+start = root
+root = element Ozymandias {layer}
+layer = element layer {agent, mixed{ (lb | ellipsis | layer)* }}
+lb = element lb {n, mixed{(layer | ellipsis)*}}
+#or lb = element lb {n, empty}
+ellipsis = element ellipsis {rend, empty}
+#empty can mean self-closing
+
+
+
+agent = attribute agent {"I" | "traveller" | "sculptor"}
+# can also write "text" in the field
+n = attribute n {xsd:integer}
+rend = attribute rend {text}
+# can also be written as {"..." | text} or { "***" | text} or a combination of the two

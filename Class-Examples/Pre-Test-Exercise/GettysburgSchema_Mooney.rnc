@@ -1,0 +1,32 @@
+# INSTRUCTIONS: PLEASE SAVE LOCALLY OUTSIDE THE TEXT-ENCODING-HUB 
+# ONLY CHANGE THE RELAX NG FILE. CORRECT THE SCHEMA, ASSOCIATE IT WITH THE XML
+# AND MAKE FURTHER CHANGES TO THE SCHEMA SO IT VALIDATES THE XML.
+
+start = xml
+xml = element xml {prologue?, body}
+#moved prologue? before body (put them in sequence)
+#removed text and + with body
+
+body = element body {sentence*} 
+#incongruent spelling of sentence (spelled sentance originally up here)
+
+prologue = element prologue {who?, mixed {(date | where)*}}  
+#forgot = between prologue and element
+#who needed a ? not *
+#made content mixed and changed , to | and moved the * to outside the ()
+date = element date { when?, text} 
+#when should not have been in ""
+#changed * to ? for when
+where = element where {location*, text}
+when = attribute when {text}
+location = attribute location {text}
+
+sentence = element sentence {n, who?, mixed {( event | where | person)*}} 
+#missing n attribute
+#made it mixed content
+person = element person {who, text} 
+#added text (may or may not matter)
+#missing n in xml file, making the rnc appear invalid
+event = attribute event {text}
+who = attribute who {text}
+n = attribute n {xsd:integer}

@@ -1,0 +1,46 @@
+start = root
+root = element xml {source, group, text}
+source = element source { mixed {(title, altTitle, author, pubPlace , publisher , date , note)}}
+group = element group {poem+}
+
+#edm: I am still struggling to get this syntax error out...can I get a hand?
+
+#ebb: The problem here is that you haven't defined a rule for note,
+# which is the last element on your list of the contents of <source>.
+# I think once you fix that you'll be okay! 
+
+# ebb: However(!) You're defining lots of things to be empty in the following
+# rules. You only want to use empty for elements that have NO text content,
+# and yet clearly you do want text for most of these. You can just take out
+# empty in most of these cases, after comparing to what you see in the XML.
+# An empty element just looks like this: 
+# <date when="2021-09-27"/>  It can have attributes, but not text inside.
+
+#edm: gotcha! Issue resolved
+
+date = element date {when, empty}
+note = element note {text}
+author = element author {text}
+title = element title {level , text}
+emph = element emph {text}
+poem = element poem {id, title, lineGroup*}
+altTitle = element altTitle {empty , text}
+publisher = element publisher {text}
+pubPlace = element pubPlace {where, text}
+place = element place {ref, text, type*}
+motif = element motif {empty | text}
+placeName = element placeName {ref, text}
+line = element line {n , mixed {(placeName | place | motif | emph)*}}
+lineGroup = element lineGroup {line*}
+
+
+type = attribute type {"trainStat"}
+# ebb: Attributes would NOT be empty! They must have a value. 
+# edm: resolved
+
+ref = attribute ref {"NYC-Bronx" | "NYC-PennSt" | text}
+level = attribute level {"book" | "inner" | text}
+where = attribute where {"NYC" | text}
+when = attribute when {"1951" | text}
+n = attribute n {xsd:integer}
+id = attribute id {"harlem" | "goodMorning" | text}

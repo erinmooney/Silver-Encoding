@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="tei_all%20(3).rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_all%20(3).rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Calendar Entries</title>
+            <editor>Erin Mooney</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>January 30, 1909, Saturday</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Penn State Erie, The Behrend College Lilly Library</repository>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="redPen" medium="red inkpen">Mary Behrend writing in red
+                        pen.</handNote>
+                     <handNote xml:id="blackPen" medium="black inkpen">Mary Behrend writing in black
+                        pen. (Easier to read than redpen.)</handNote>
+                     <handNote xml:id="calendarPub" medium="printed">New Friendship Calendar
+                        Company. Looks stamped onto the paper by a machine.</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <fw type="header" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO. NEW
+            BRITAIN, CONN.</fw>
+         <fw>Written and drawn on by Mary Behrend</fw>
+         <figure>
+            <graphic
+               url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2041.jpg"
+            />
+         </figure>
+         <div type="calendarEntry">
+            <note type="forGraphic">Picture of a man in bed glaring at a clock on a beadside
+               table</note>
+            <ab hand="#blackpen">
+               <msDesc>
+                  <msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <layoutDesc>
+                              <layout>
+                                 <space>E.R.B "That damned old clock</space>
+                                 <space>gives me a shock</space>
+                                 <space>Each morning when it's dark</space>
+                                 <space>It likes the fun, but I've begun</space>
+                                 <space>To tire of the lark!"</space>
+                              </layout>
+                           </layoutDesc>
+                        </objectDesc>
+                     </physDesc>
+                  </msIdentifier>
+               </msDesc>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

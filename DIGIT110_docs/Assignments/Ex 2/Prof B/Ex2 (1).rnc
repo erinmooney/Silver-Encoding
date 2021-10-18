@@ -1,0 +1,45 @@
+start = root
+root = element xml {source, text}
+source = element source {title, altTitle, author, pubPlace , publisher , date , note}
+text = element text {poem, line, title, lineGroup, emph, placeName, place, mixed {(ref, level, id, n, type)*}}
+
+#Having a tough time getting source and text to be green. 
+#At one point, the block was good and green.
+#But you know what they say...It's not easy being green. 
+
+#ebb: The problem here is that you haven't defined a rule for note,
+# which is the last element on your list of the contents of <source>.
+# I think once you fix that you'll be okay! 
+
+# ebb: However(!) You're defining lots of things to be empty in the following
+# rules. You only want to use empty for elements that have NO text content,
+# and yet clearly you do want text for most of these. You can just take out
+# empty in most of these cases, after comparing to what you see in the XML.
+# An empty element just looks like this: 
+# <date when="2021-09-27"/>  It can have attributes, but not text inside.
+
+date = element date {when, text, empty}
+note = element note {empty , text}
+author = element author {empty , text}
+title = element title {level , empty, text}
+emph = element emph {empty , text}
+poem = element poem {id, text, empty}
+altTitle = element altTitle {empty , text}
+publisher = element publisher {empty , text}
+pubPlace = element pubPlace {where, text, empty}
+place = element place {ref, empty , text}
+motif = element motif {empty | text}
+placeName = element placeName {ref, empty , text}
+line = element line {n | empty | mixed {(placeName | place | motif | emph | text)*}}
+lineGroup = element lineGroup {line | poem | text}
+
+
+type = attribute type {"trainStat" | text | empty}
+# ebb: Attributes would NOT be empty! They must have a value. 
+
+ref = attribute ref {"NYC-Bronx" | "NYC-PennSt" | text | empty}
+level = attribute level {"book" | "inner" | text}
+where = attribute where {"NYC" , empty}
+when = attribute when {"1951" , empty}
+n = attribute n {xsd:integer}
+id = attribute id {"harlem" | "goodMorning" | text}
