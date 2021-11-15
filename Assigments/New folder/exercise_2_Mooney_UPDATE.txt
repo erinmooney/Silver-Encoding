@@ -1,0 +1,12 @@
+1. //occupation/@subtype
+2. //occupation/@subtype => distinct-values()
+3. //occupation/@subtype => distinct-values() => count()
+4. 
+	a. //occupation[@subtype="painter"]
+	b. //person[occupation[@subtype="engraver"]]
+	c. //person[@sex="f"][occupation[@subtype="engraver"]]
+	d. //occupation[@subtype="engraver"] ; 8 items  ** I use a different code, but got the same result.
+	e. //person[occupation[@subtype="literary"]][birth/@when="1778"]
+	f. //person[birth]//occupation[@subtype="engraver"] ; 8 items  ** Different code, same result.
+	g. //person[occupation[@subtype="painter"]]/death/@*
+5. I think that the first one ( //person/occupation[1] ) pulls more results because it is nonspecific. The parenthesis in the second one ( (//person/occupation)[1] ) make kind of a number limit of found results. 

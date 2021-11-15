@@ -1,0 +1,31 @@
+body {background-color: Linen;}
+
+section#gallery {
+    width: 80%;
+    display:flex; 
+    flex-direction:row;
+    justify-content:space-between;
+    }
+    
+section#letter {
+    width:80%;
+}
+    
+figure {
+    flex:1;
+}
+figcaption {font-style: italic; font-size: smaller;}
+img {max-width:500px; width:100%}
+
+span.parNum {font-size: smaller; color:maroon;}
+
+span.place { background-color: PaleTurquoise;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  }
+
+span.transport {background-color:SandyBrown;}
+
+span.meal {background-color:blue;}
+
+span.date {color:blue;}

@@ -1,0 +1,25 @@
+Erin Mooney - that annoying chick that went to a wedding at the end of the semester -_-
+
+1.
+	a. //sd ; 524 items
+	b. //sd [contains(., "Russian")] ; 11 items
+	c. //Scene/Heading/following-sibling::sd[1] ; 172 items **note, I did forget for quite a while to include Scene first (I kept starting with Heading). 
+	d. //Scene/Heading/following-sibling::sd[1][contains(., "computer")] ; 7 items **I am becoming a bit more familiar with how XPath registers things
+	e. //Scene[not(.//sd)] ; 2 items  **sidenote the XPath assisting website is becoming more helpful as I've practiced reading it)
+	
+2. 
+	a. //sp ; 649 items
+	   //spk ; 674 items
+	  //sp!string(); 649 items
+	//sp and //sp!string() are diferent in that //sp!string() results show the speaker of the line too. (//spk just shows the speaker and where in the document)
+	I think the difference between //sp and //spk is either there is a listing of speakers somewhere, or there are certain dialogues that don't necessarily have words. For example responses or reactions or ellipses.
+	b. //sp/text() just shows the text (there is no speaker name next to it).
+	c. //sp/text()!string-length() ; 649 items ; Returns the number of character spaces used in the dialogue.
+	d. //sp/text()!string-length()=>max() ; 462 ; **that doesn't feel right, but maybe this doc is longer than I think. 
+	e. //sp/text()[string-length()=max(//sp/text()!string-length())] ; 1 item 
+3.
+	a. //sp[contains(., "Iraq")] /spk ; **should there only be one result??
+	b. //spk/lower-case(.) ; 674 items
+	c. //spk/substring(., 2)!lower-case(.) ; 674 items
+	d. //spk/substring(., 1,1) ; 674 items (of only 1 letter)
+	e. //spk concat(substring($i, 1, 1) , substring($i, 2) ! lower-case(.)) **not getting an answer

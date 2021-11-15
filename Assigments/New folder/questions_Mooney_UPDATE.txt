@@ -1,0 +1,27 @@
+Use for HW 
+ >get the text you searched
+	> ex: 1. //div[@type="historical_people"]//person/occupation/@type
+
+
+1. 
+	
+	a. //body ; 1 items
+	b. //listOrg ; 4 items
+	c. //div[listOrg] ; 3 items
+	d. //div[listEvent] ; 1 item
+	e. //listPerson/person ; 1223 items
+	f. ** Not really a question I can replicate (I don't think).
+2.
+	a. //body/* ; 9 items
+	b. //list[@sortKey="plants"]/* ; 104 items
+	c. ** Could not find another version of this.
+ 
+3.
+	a. //place; 204 items
+	b. ** Not really a question I can replicate (I don't think).
+	c. //person[@sex] => count() ; 1107 ** not sure how to update/replicate
+	d. ** Also not sure how to update/replicate
+	e. ** Same issue as before
+	f. ** Same issue as before
+
+Redoing this really helped me understand the structure a bit better!

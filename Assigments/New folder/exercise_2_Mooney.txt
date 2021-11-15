@@ -1,0 +1,12 @@
+1. //occupation[@type]/* ; 102 items
+2. //occupation[@type]/* => distinct-values() ; 68 items
+3. //occupation[@type]/* => distinct-values() => count() ; 1 item
+4. 
+	a. person(//occupation [@type="artist"]) ; ** This is as far as I could get. 
+	b. //occupation[@type="artist"] ; 66 items
+	c. //occupation[@type="artist"][@sex="f"] ; **This is as far as I could get.
+	d. //occupation[@subtype="engraver"] ; 8 items
+	e. //occupation[@subtype="engraver"][@birth="1787"] ; ** I am struggling with the nested predicates.
+	f. //person[birth]//occupation[@subtype="engraver"] ; 8 items
+	g. //person[@subtype="birth"] ! normalize-space(.) => sort() => min() ** SOS
+5. I think that the first one ( //person/occupation[1] ) pulls more results because it is nonspecific. The parenthesis in the second one ( (//person/occupation)[1] ) make kind of a number limit of found results. 

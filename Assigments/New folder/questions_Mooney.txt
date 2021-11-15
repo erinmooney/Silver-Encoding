@@ -1,0 +1,26 @@
+Use for HW 
+ >get the text you searched
+	> ex: 1. //div[@type="historical_people"]//person/occupation/@type
+
+
+1. 
+	
+	a. //element(div) ; 9 items
+	b. //element(listPerson)
+	c. //div/child::listPerson ; 6 items
+	d. //div[count(listPlace)>6]  (I am not sure about this one.)
+	e. //div/child::listPlace ; 2 items
+	f. / is a child of the tree while // is a grandchild of the tree
+		The second expression returns a larger number of results because it allows the XPath to go further down the tree.
+2.
+	a. //div//* (I think?)
+	b. Cannot get this to work
+	c. //div["@sortKey"]
+ 
+3.
+	a. //person ; 1,223 items
+	b. No ; //person[@sex] ; 1,107 items
+	c. //count(person[@sex]) ; 95,125 items
+	d. 90%
+	e. //person[@sex="f"] ; 327 items
+	f. 29%

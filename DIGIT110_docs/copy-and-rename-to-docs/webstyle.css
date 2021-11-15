@@ -1,10 +1,13 @@
 
 body {
-background-color: BurlyWood;
+background-color: CornflowerBlue;
 color: indigo;
 font-family: arial, helvetica, sans-serif;
-}
+padding: 15px;
+line-height:1.4em}
 ol {list-style-type: lower-alpha;
 padding: 5em;
-    
 }
+
+
+/* figure img {max-width: 700px ; width: 100%} */

@@ -1,0 +1,6 @@
+1.
+	a. //sd
+	b. //sd[contains("Russian")] ; I am having trouble finding the right attributes to make the container work.
+	c. //heading/child::sd[1] ; I get a message saying no results, but I am not sure where I am going wrong.
+	d. //sentence[contains(.,"computer",.)] ; Again, the struggle is with not getting the error message mentioned above
+	e. 
