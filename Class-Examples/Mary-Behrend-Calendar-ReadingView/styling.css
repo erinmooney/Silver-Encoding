@@ -1,0 +1,226 @@
+body {
+    background-color: beige;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    z-index:0
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    z-index:1
+}
+
+.navbar a {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 26px;
+}
+
+p {
+    line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+img {
+    /*display: block;*/
+    border-radius: 15px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.header {
+    line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.header:hover {
+        line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    color:yellow;
+    }
+
+.pfp {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.title {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex: 4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.main {
+    flex: 4;
+    padding: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.flex-container {
+    flex-wrap: wrap;
+}
+
+img.thumbnail {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 10px;
+    left: 10px;
+    right: 22px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 140px;
+    transition: .5s ease;
+    opacity: 0;
+    border-radius: 15px;
+    font-size: x-small;
+    padding: 30px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+}
+
+figure:hover .overlay {
+    opacity: 1;
+}
+
+div > figure {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: initial;
+    flex-wrap: wrap;
+}
+
+section#page {
+    background-color: tan;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.desc {
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+figure img {
+    max-width: 500px;
+    width: 100%;
+
+}
+
+section#page div.transcription {
+    flex: 2;
+    padding: 5vw;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 300px;
+    margin-bottom: 100px;
+    font-size: 12px;
+}
+
+section#page div.transcription p {
+    font-size: 12px;
+}
+
+.entry{
+    width: 500px;
+    height: 666px;
+}
+
+.footer{
+   /* ebb: position:absolute means this always floats on the bottom 
+    * of a screen, even on a long page where you scroll PAST thte bottom 
+    * of a screen. So I think you want this to remain at the very bottm? */
+    /*  position: absolute; */
+    background-color: gray;
+    bottom: 0px; 
+ color: white;   
+}
+
+div.footer a, div.footer p {
+  color: white;  background-color:black;
+}
+
+div.footer a:visited{
+    /*color: blueviolet;*/
+    color:yellow;
+}
+div.footer p img{display:inline;}
+
+/* 2021-12-06 ebb: The following CSS is for the Reading View to make a CSS grid */
+/*  section elements wrap each unit of calendar page information, so this is our 
+ * CSS grid container */
+ 
+ /*  I'm using an atttribute selector to look for sections 
+  * whose id attributes START WITH this string: e-1909  since those are the sections
+  * we want to be grid containers*/
+ section[id^="e-1909"] {
+ background-color:lavender;
+ border: thin solid maroon;
+ display:grid;
+ grid-auto-flow:column; 
+ grid-template-columns:800px 200px; 
+ grid-column-gap:20px;
+
+
+ }
+ 
+ /*  let's try creating a grid for the div.facsblock, so all the text appears in a new column to the right of the image.  */
+ 
+ section[id^="e-1909"] div.facsblock {
+ background-color:white; 
+display:grid;
+grid-auto-flow:column;
+grid-template-columns: 400px 400px /*minmax(auto, 400px)*/; 
+/*  ebb: need to look up how minmax works.  */
+grid-column-gap:20px;
+}
+
+/* Maybe we'd like to control the spaces between the sections, so we can make a big
+ * grid of the surrounding section#fulltext that holds all the calendar entries.
+ * This time, we'll organize it in rows (vertically). I'm only doing this to specify a gap to appear in between each section. 
+ *  */
+section#fulltext {
+    display:grid;
+    grid-auto-flow:row;
+    grid-row-gap:50px;
+}

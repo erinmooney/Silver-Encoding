@@ -1,0 +1,21 @@
+body {background-color: LightBlue;
+font-family: arial, helvetica, sans-serif;}
+
+
+.event {color: RebeccaPurple;}
+
+.item {color: DarkGreen}
+
+.char {font-style: italic;}
+
+.soCalled {color: DarkOrange;}
+
+.place {text-transform: uppercase;}
+
+
+.good {text-decoration: underline;
+text-decoration-color: MediumBlue;}
+.neutral {text-decoration: underline;
+text-decoration-color: Magenta;}
+.evil {text-decoration: underline;
+text-decoration-color: Red;}
