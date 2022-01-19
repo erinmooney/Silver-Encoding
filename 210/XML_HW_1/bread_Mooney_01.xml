@@ -2,52 +2,128 @@
 
 <!-- Text, beautiful, beautiful text! -->
 
-<root><title>Country Loaf (Pain de Campagne</title>
-    
-<authorInfo><author><name part="first">Deb</name> <name part="last">Lindsey</name> for <pubTitle>The Washington</pubTitle> Post</author></authorInfo>
+<root>
+    <title>Country Loaf (Pain de Campagne</title>
 
-<date>SEP 10, 2014</date>
-    <para><pubTitle>Washington</pubTitle> author <author><name part="first">Sam</name> <name part="last">Fromartz</name></author> has been making <bread>sourdough</bread> variations of this yeast bread for <time>years</time>. Here, he adds fermented <drink>cider</drink> for flavor. A mild <drink part="alcohol">beer</drink> may be substituted; an IPA would be too <taste>bitter</taste>. The <bread part="piece">loaf</bread> is sized to last a few days.</para>
+    <authorInfo>
+        <author><name part="first">Deb</name>
+            <name part="last">Lindsey</name> for <pubTitle>The Washington</pubTitle> Post</author>
+    </authorInfo>
 
-<para>The optional <unit>tablespoon</unit> of <drink>water</drink> is to compensate for the variable absorption of the <bread>rye</bread> and <bread>whole-wheat flours</bread>.</para>
+    <pubDate>SEP 10, 2014</pubDate>
+    <para><pubTitle>Washington</pubTitle> author <author><name part="first">Sam</name>
+            <name part="last">Fromartz</name></author> has been making <bread>sourdough</bread>
+        variations of this yeast bread for <time>years</time>. Here, he adds fermented
+            <drink>cider</drink> for flavor. A mild <drink part="alcohol">beer</drink> may be
+        substituted; an IPA would be too <taste>bitter</taste>. The <bread part="piece">loaf</bread>
+        is sized to last a few days.</para>
 
-<para>You'll need a <utensil>colander</utensil>, a <utensil>pastry cloth</utensil> or clean <utensil>dish towel</utensil> and a covered <utensil>cast-iron</utensil> or <utensil>enameled cast-iron pot</utensil>.</para>
+    <para>The optional <unit>tablespoon</unit> of <drink>water</drink> is to compensate for the
+        variable absorption of the <bread>rye</bread> and <bread>whole-wheat flours</bread>.</para>
 
-<para>Make Ahead: The <bread>dough</bread> needs <quant>four</quant> <time>20-<unit>minute</unit></time> rests, plus an <time>8-to-24-<unit>hour</unit></time> stay in the <utensil>refrigerator</utensil> and a final <time>1 1/2-<unit>hour</unit></time> rise.</para>
+    <para>You'll need a <utensil>colander</utensil>, a <utensil>pastry cloth</utensil> or clean
+            <utensil>dish towel</utensil> and a covered <utensil>cast-iron</utensil> or
+            <utensil>enameled cast-iron pot</utensil>.</para>
 
-<para>Storage Notes: Store the <temp>cooled</temp> <bread>loaf</bread> in a <utensil>paper bag</utensil> for a <time>day</time>, and store in a <utensil>plastic bag</utensil> for a few <time>days</time> after that. Do not <utensil>refrigerate</utensil>.</para>
+    <para>Make Ahead: The <bread>dough</bread> needs <quant>four</quant>
+        <time>20-<unit>minute</unit></time> rests, plus an <time>8-to-24-<unit>hour</unit></time>
+        stay in the <utensil>refrigerator</utensil> and a final <time>1 1/2-<unit>hour</unit></time>
+        rise.</para>
 
-<servingInfo><heading>SERVINGS:</heading> 
-10 - 12
-<size type="tested">Tested size: <quant>10-12</quant> <unit>servings</unit>;</size> makes one 11-ounce loaf 10 to 12 slices</servingInfo>
+    <para>Storage Notes: Store the <temp>cooled</temp>
+        <bread>loaf</bread> in a <utensil>paper bag</utensil> for a <time>day</time>, and store in a
+            <utensil>plastic bag</utensil> for a few <time>days</time> after that. Do not
+            <utensil>refrigerate</utensil>.</para>
 
-<ingredientList><heading>INGREDIENTS</heading>
-<ing><measure><quant num="1.25">1 1/4</quant> <unit>cups</unit> <alt>(<quant>160</quant> <unit>grams</unit>)</alt></measure> <bread>white bread flour</bread>, plus more for dusting</ing>
-<ing><quant>1/4</quant> <unit>cup</unit> (<quant>38</quant> <unit>grams</unit>) <bread>stone-ground whole-wheat flour</bread></ing>
-<ing><quant>1/4</quant> <unit>cup</unit> (<quant>32</quant> <unit>grams</unit>) <bread>stone-ground whole rye flour</bread></ing>
-<ing><quant>1/2</quant> <unit>teaspoon</unit> <bread>instant yeast</bread> or <bread>bread machine yeast</bread></ing>
-<ing><quant>1</quant> <unit>teaspoon</unit> table salt</ing>
-<ing><quant>1/4</quant> <unit>cup</unit> (<quant>55</quant> <unit>grams</unit>) <drink>dry fermented cider</drink> (may substitute <drink>Pilsener beer</drink>; see headnote)</ing>
-<ing><quant>1/2</quant> <unit>cup</unit> (<quant>120</quant> <unit>grams</unit>) <drink>lukewarm water</drink> (<quant>80</quant> <unit type="temp">degrees</unit>), plus an optional <quant>1</quant> <unit>tablespoon</unit></ing></ingredientList>
-<directions><heading>DIRECTIONS</heading>
-<utensil>Whisk</utensil> together the <bread>flours</bread>, <bread>yeast</bread> and <ing>salt</ing> in a <utensil>mixing bowl</utensil>. Combine the <drink>cider</drink> and <drink>water</drink> in a <utensil>liquid measuring cup</utensil>.
+    <servingInfo><heading>SERVINGS:</heading> 10 - 12 <size type="tested">Tested size:
+                <quant>10-12</quant>
+            <unit>servings</unit>;</size> makes one 11-ounce loaf 10 to 12 slices</servingInfo>
 
-Add the <drink>liquid</drink> to the <bread>flour</bread> mixture; use a <utensil>spatula</utensil> or <utensil>bench scraper</utensil> or your <utensil>hand</utensil> moistened with <drink>water</drink> to blend them for about a minute. The <bread>dough</bread> should be shaggy yet cohesive. Cover the <utensil>bowl</utensil> with a <utensil><bread>towel</bread></utensil>; let the <bread>dough</bread> rest for <quant>20</quant> <unit>minutes</unit>.
-
-Moisten your kneading <utensil>hand</utensil>. If the <bread>dough</bread> seems stiff, add the optional <unit>tablespoon</unit> of <drink>water</drink>. Stretch one edge of the <bread>dough</bread> (still in the <utensil>bowl</utensil>), then press it into the <direction>center</direction> of the <utensil>bowl</utensil>. Repeat this about a <quant>dozen</quant> <unit>times</unit>, moving <direction>clockwise</direction> to catch all sides of the <bread>dough</bread>. (This should take <quant>1</quant> or <quant>2</quant> <unit>minutes</unit>.)
-
-Turn the <bread>dough</bread> over so the seams are on the <direction>bottom</direction>. Cover and let rest for <quant>20</quant> <time>minutes</time>. Repeat the <direction>clockwise</direction> stretching and folding <quant>two</quant> more times, with <quant>20</quant>-<time>minute</time> rests after each. Cover and <utensil>refrigerate</utensil> at least <quant>8</quant> <time>hours</time> and up to <quant>24</quant> <time>hours</time>. The <bread>dough</bread> should have <quant>doubled</quant>. If it hasn't, leave it on the counter until it does.
-
-Lightly <bread>flour</bread> a work surface. Use a <utensil>pastry cloth</utensil> or clean <utensil>dish towel</utensil> to line a <utensil>round colander</utensil>. Dust the <utensil>cloth</utensil> with <bread>flour</bread>.
-
-Transfer the <bread>dough</bread> to the <bread>floured</bread> work surface. Fold the edges toward the <direction>center</direction> to create a round shape, turning it over so the seams are on the <direction>bottom</direction>. Let it rest for <quant>5</quant> <time>minutes</time>, then transfer to the <utensil>colander</utensil>, seam side up. Cover with a <utensil>towel</utensil> and let the <bread>dough</bread> rise for <quant>1 1/2</quant> <time>hours</time>.
-
-<quant>Thirty</quant> <time>minutes</time> before baking, place a <utensil>cast-iron Dutch oven</utensil> (lid on) or <utensil>enameled cast-iron pot with a lid</utensil> (on) in the <utensil>oven</utensil>; preheat to <quant>475</quant> <unit type="temp">degrees</unit>.
-
-Carefully remove the <temp>hot</temp> <utensil>pot</utensil> from the <utensil>oven</utensil>.
-
-Turn the <bread>dough</bread> out onto the counter so the seams are on the <direction>bottom</direction>. Use <utensil>kitchen scissors</utensil> to make <quant>8</quant> <unit>snips</unit> on the <direction>top</direction> of the <bread>dough</bread> in an <quant>evenly</quant> <unit>spaced</unit> spoke pattern, each about <quant>1/4</quant>-<unit>inch</unit> deep. Lift the <bread>dough</bread> and carefully drop it into the <temp>hot</temp> <utensil>pot</utensil>. Immediately cover with the <temp>hot</temp> <utensil>lid</utensil>. Bake for <quant>30</quant> <time>minutes</time>, then reduce the <temp>heat</temp> to <quant>450</quant> <unit type="temp">degrees</unit>. Uncover and bake for <quant>8</quant> to <quant>10</quant> <time>minutes</time> or until the <bread>crust</bread> is <color>dark brown</color>. Try to minimize the amount of <time>time</time> the <utensil>oven</utensil> door is open.
-
-The <bread>bread</bread> is done when its internal <temp>temperature</temp> registers <quant>205</quant> <unit type="temp">degrees</unit> on an <utensil>instant-read thermometer</utensil> and the <bread>loaf</bread> sounds hollow when knocked on the <direction>underside</direction>.
-
-Transfer the <bread>loaf</bread> to a <utensil>wire rack</utensil> to <temp>cool</temp> for at least <quant>1</quant> <time>hour</time> before cutting.</directions></root>
+    <ingredientList>
+        <heading>INGREDIENTS</heading>
+        <ing xml:id="wbf"><measure><quant num="1.25">1 1/4</quant>
+                <unit>cups</unit>
+                <alt>(<quant>160</quant>
+                    <unit>grams</unit>)</alt></measure>
+            <bread>white bread flour</bread>, plus more for dusting</ing>
+        <ing><quant>1/4</quant>
+            <unit>cup</unit> (<quant>38</quant>
+            <unit>grams</unit>) <bread>stone-ground whole-wheat flour</bread></ing>
+        <ing><quant>1/4</quant>
+            <unit>cup</unit> (<quant>32</quant>
+            <unit>grams</unit>) <bread>stone-ground whole rye flour</bread></ing>
+        <ing><quant>1/2</quant>
+            <unit>teaspoon</unit>
+            <bread>instant yeast</bread> or <bread>bread machine yeast</bread></ing>
+        <ing><quant>1</quant>
+            <unit>teaspoon</unit> table salt</ing>
+        <ing><quant>1/4</quant>
+            <unit>cup</unit> (<quant>55</quant>
+            <unit>grams</unit>) <drink>dry fermented cider</drink> (may substitute <drink>Pilsener
+                beer</drink>; see headnote)</ing>
+        <ing><quant>1/2</quant>
+            <unit>cup</unit> (<quant>120</quant>
+            <unit>grams</unit>) <drink>lukewarm water</drink> (<quant>80</quant>
+            <unit type="temp">degrees</unit>), plus an optional <quant>1</quant>
+            <unit>tablespoon</unit></ing>
+    </ingredientList>
+    <directions><heading>DIRECTIONS</heading>
+        <utensil>Whisk</utensil> together the <bread>flours</bread>, <bread>yeast</bread> and
+            <ing>salt</ing> in a <utensil>mixing bowl</utensil>. Combine the <drink>cider</drink>
+        and <drink>water</drink> in a <utensil>liquid measuring cup</utensil>. Add the
+            <drink>liquid</drink> to the <bread>flour</bread> mixture; use a
+            <utensil>spatula</utensil> or <utensil>bench scraper</utensil> or your
+            <utensil>hand</utensil> moistened with <drink>water</drink> to blend them for about a
+        minute. The <bread>dough</bread> should be shaggy yet cohesive. Cover the
+            <utensil>bowl</utensil> with a <utensil><bread>towel</bread></utensil>; let the
+            <bread>dough</bread> rest for <quant>20</quant>
+        <unit>minutes</unit>. Moisten your kneading <utensil>hand</utensil>. If the
+            <bread>dough</bread> seems stiff, add the optional <unit>tablespoon</unit> of
+            <drink>water</drink>. Stretch one edge of the <bread>dough</bread> (still in the
+            <utensil>bowl</utensil>), then press it into the <direction>center</direction> of the
+            <utensil>bowl</utensil>. Repeat this about a <quant>dozen</quant>
+        <unit>times</unit>, moving <direction>clockwise</direction> to catch all sides of the
+            <bread>dough</bread>. (This should take <quant>1</quant> or <quant>2</quant>
+        <unit>minutes</unit>.) Turn the <bread>dough</bread> over so the seams are on the
+            <direction>bottom</direction>. Cover and let rest for <quant>20</quant>
+        <time>minutes</time>. Repeat the <direction>clockwise</direction> stretching and folding
+            <quant>two</quant> more times, with <quant>20</quant>-<time>minute</time> rests after
+        each. Cover and <utensil>refrigerate</utensil> at least <quant>8</quant>
+        <time>hours</time> and up to <quant>24</quant>
+        <time>hours</time>. The <bread>dough</bread> should have <quant>doubled</quant>. If it
+        hasn't, leave it on the counter until it does. Lightly <bread>flour</bread> a work surface.
+        Use a <utensil>pastry cloth</utensil> or clean <utensil>dish towel</utensil> to line a
+            <utensil>round colander</utensil>. Dust the <utensil>cloth</utensil> with
+            <bread>flour</bread>. Transfer the <bread>dough</bread> to the <bread>floured</bread>
+        work surface. Fold the edges toward the <direction>center</direction> to create a round
+        shape, turning it over so the seams are on the <direction>bottom</direction>. Let it rest
+        for <quant>5</quant>
+        <time>minutes</time>, then transfer to the <utensil>colander</utensil>, seam side up. Cover
+        with a <utensil>towel</utensil> and let the <bread>dough</bread> rise for <quant>1
+            1/2</quant>
+        <time>hours</time>. <quant>Thirty</quant>
+        <time>minutes</time> before baking, place a <utensil>cast-iron Dutch oven</utensil> (lid on)
+        or <utensil>enameled cast-iron pot with a lid</utensil> (on) in the <utensil>oven</utensil>;
+        preheat to <quant>475</quant>
+        <unit type="temp">degrees</unit>. Carefully remove the <temp>hot</temp>
+        <utensil>pot</utensil> from the <utensil>oven</utensil>. Turn the <bread>dough</bread> out
+        onto the counter so the seams are on the <direction>bottom</direction>. Use <utensil>kitchen
+            scissors</utensil> to make <quant>8</quant>
+        <unit>snips</unit> on the <direction>top</direction> of the <bread>dough</bread> in an
+            <quant>evenly</quant>
+        <unit>spaced</unit> spoke pattern, each about <quant>1/4</quant>-<unit>inch</unit> deep.
+        Lift the <bread>dough</bread> and carefully drop it into the <temp>hot</temp>
+        <utensil>pot</utensil>. Immediately cover with the <temp>hot</temp>
+        <utensil>lid</utensil>. Bake for <quant>30</quant>
+        <time>minutes</time>, then reduce the <temp>heat</temp> to <quant>450</quant>
+        <unit type="temp">degrees</unit>. Uncover and bake for <quant>8</quant> to <quant>10</quant>
+        <time>minutes</time> or until the <bread>crust</bread> is <color>dark brown</color>. Try to
+        minimize the amount of <time>time</time> the <utensil>oven</utensil> door is open. The
+            <bread>bread</bread> is done when its internal <temp>temperature</temp> registers
+            <quant>205</quant>
+        <unit type="temp">degrees</unit> on an <utensil>instant-read thermometer</utensil> and the
+            <bread>loaf</bread> sounds hollow when knocked on the <direction>underside</direction>.
+        Transfer the <bread>loaf</bread> to a <utensil>wire rack</utensil> to <temp>cool</temp> for
+        at least <quant>1</quant>
+        <time>hour</time> before cutting.</directions>
+</root>

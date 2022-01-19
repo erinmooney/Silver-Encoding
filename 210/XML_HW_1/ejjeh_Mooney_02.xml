@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- I looked for and picked this recipe because it is one of my favorite breakfast foods growing up! -->
+<!-- Our family recipe though is not as extensive as this one, so I cannot vouch for this specific dish. -->
+
+<!--
+<link> https://www.recipecommunity.com.au/main-dishes-vegetarian-recipes/ejjeh-lebanese-omelette/d4iudvq8-fee18-518472-beea0-ehhj2ymm </link>
+-->
+
+<root>
+    <title><dishName>EJJEH</dishName> <altName>(LEBANESE OMELETTE)</altName></title>
+<rectype>Main dishes - vegetarian recipes</rectype>
+
+<authorInfo>Author picture <name type="username">Simone93</name>
+published: <pubDate year="2019" month="07" day="30"> 2019/07/30</pubDate></authorInfo>
+
+<disclaim>Ejjeh (Lebanese Omelette) Recipe is not tested</disclaim>
+
+<ingredientList><heading>INGREDIENTS
+<dishName>Ejjeh</dishName> <altName>(Lebanese Omelette)</altName></heading>
+
+<ing><quant>2</quant> --- <unit>heaped handfuls</unit> of fresh parsley leaves</ing>
+<ing><quant>1</quant> --- <unit>handful</unit> fresh mint leaves</ing>
+<ing><quant>1</quant> onion, quartered</ing>
+<ing><quant>1</quant> red capsicum, roughly chopped</ing>
+<ing><quant>12</quant> eggs</ing>
+<ing><quant>1/2</quant> <unit>teaspoon</unit> Lebanese 7 spice</ing>
+<ing>Salt &amp; Pepper, <unit>to taste</unit></ing>
+<ing><quant>1</quant> <unit>teaspoon</unit> baking powder</ing>
+<ing><quant>2</quant> <unit>heaped tablespoon</unit> plain flour
+olive oil, for frying</ing>
+</ingredientList>
+
+<sectheading>Preparation</sectheading>
+    
+<heading>RECIPE'S PREPARATION</heading>
+    
+Place <ing>Parsley</ing>, <ing>Mint</ing>, <ing>Onion</ing> and <ing>Capsicum</ing> into <utensil>bowl</utensil> and mix <quant>3</quant> <time>seconds</time> Speed 7 until finely chopped. Set aside.
+
+In a <utensil>large bowl</utensil> <utensil>whisk</utensil> <quant>\</quant> <ing>eggs</ing>, <ing>salt</ing>, <ing>pepper</ing> and <ing>lebanese spices</ing>. add the <ing>parsley mixture</ing> to the <utensil>large bowl</utensil>. <utensil>Whisk</utensil> until well combined.
+
+Add in the <bread>flour</bread> and <ing>baking powder</ing> and <utensil>whisk</utensil> again.
+
+Shallow fry <unit>scoopfuls</unit> of <ing>mixture</ing> in <ing>oil</ing> on <temp>medium heat</temp> until <color>golden brown</color> on both sides.
+
+Place omelletes straight onto a <ing>plate</ing> with some <utensil>paper towl</utensil> to drain excess <ing>oil</ing>.
+
+Can be eaten alone <temp>hot</temp> or <temp>cold</temp>. Can be served with <altName><bread><ing type="optional" except="notInMyHome">lebanese bread</ing></bread></altName>/<name><bread><ing type="optional" except="notInMyHome">pita bread</ing></bread></name>, <ing type="optional">tomato sauce</ing>, <ing type="optional">Labne</ing> or <ing type="optional">fresh vegetables</ing> - <ing type="optional">cucumber</ing>, <ing type="optional">raddish</ing> ,<ing type="optional">tomato</ing> etc .
+</root>
