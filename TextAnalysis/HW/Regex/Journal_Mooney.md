@@ -27,3 +27,20 @@ Lastly, for the time listing, I used: ```(</location>)(.+?)(</movie>)``` to grab
 Then I replaced it with: ```\1<time>\2</time>\3``` to keep ```<time>`` between the parts I used in the search. 
 
 
+
+
+
+HW NOTES
+
+```(</title>)(\d{4,}?)\t``` can also be used
+    replace with ```\1<year>\2</year>```
+
+```(</year>(.+?)\t```
+replace with: ```\1<country>\2</country>```
+
+```(</country>(.+?)(</movie>)```
+replace with:```\1<runTime>\2</runTime>\3
+        <runTime>/d+\s
+            (<runTime)(>\d+)\s+(min)
+            replace with: \1unit="\3"\2
+            
