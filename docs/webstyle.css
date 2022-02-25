@@ -2,7 +2,8 @@
 body {
 background-color: Silver;
 color: Teal;
-font-family: arial, helvetica, sans-serif;}
+font-family: arial, helvetica, sans-serif;
+cursor: url('glider.ico'), default;}
 
 .menuA {text-align: center;
   font-size: 10vw;
