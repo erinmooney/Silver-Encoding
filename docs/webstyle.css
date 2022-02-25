@@ -4,7 +4,8 @@ background-color: Silver;
 color: Teal;
 font-family: arial, helvetica, sans-serif;}
 
-div.menu {text-align: center; font-size: 2vw;
+.menuA {text-align: center;
+  font-size: 10vw;
   display: block;
   border: 15px solid Plum;
   padding-top: 2vw;
