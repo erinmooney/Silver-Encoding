@@ -4,7 +4,12 @@ background-color: Silver;
 color: Teal;
 font-family: arial, helvetica, sans-serif;}
 
-
+div.menu {text-align: center; font-size: 2vw;
+  display: block;
+  border: 15px solid Plum;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  flex: 5;}
 
 /* unvisited link */
 a:link {color: RebeccaPurple;}
@@ -21,45 +26,7 @@ h1 {text-align:center;
 display: block;}
 
 
-
-.metadata {text-align: justify;
-align-items: center;}
-
-
-
-/*Margin: auto;*/
-
-/* minmax{} */
-
-
-
-/* Span */
-.page {color: DarkGoldenrod;}
-
-.desc {color: Maroon;}
-
-.nature {color: ForestGreen;}
-
-.tech {color: LightSlateGray;}
-
-.color {color: RebeccaPurple;}
-
-.shape {color: CadetBlue;}
-
-
-
-/* PAGES */
-div.page {display: block;
-background-image: url(img/edited/page4.png);
-height: 40%;
-background-position: center;
-background-size: cover;
-position: absolute;
-  z-index: -1;
-display:flex;
-
-}
-
+/* Footer */
 footer {
   width: 300px;
   padding: 10px;  
