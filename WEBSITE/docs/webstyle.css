@@ -1,0 +1,91 @@
+/* Base */
+body {
+background-color: Silver;
+color: Teal;
+font-family: arial, helvetica, sans-serif;}
+
+
+
+/* unvisited link */
+a:link {color: RebeccaPurple;}
+/* visited link */
+a:visited {color: SteelBlue;}
+/* mouse over link */
+a:hover {color: SteelBlue;}
+/* selected link */
+a:active {color: DarkSlateGray;}
+
+
+/* Title */
+h1 {text-align:center;
+display: block;}
+
+
+
+.metadata {text-align: justify;
+align-items: center;}
+
+
+
+/*Margin: auto;*/
+
+/* minmax{} */
+
+
+
+/* Span */
+.page {color: DarkGoldenrod;}
+
+.desc {color: Maroon;}
+
+.nature {color: ForestGreen;}
+
+.tech {color: LightSlateGray;}
+
+.color {color: RebeccaPurple;}
+
+.shape {color: CadetBlue;}
+
+
+
+/* PAGES */
+div.page {display: block;
+background-image: url(img/edited/page4.png);
+height: 40%;
+background-position: center;
+background-size: cover;
+position: absolute;
+  z-index: -1;
+display:flex;
+
+}
+
+footer {
+  width: 300px;
+  padding: 10px;  
+  border: 2px solid Plum;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

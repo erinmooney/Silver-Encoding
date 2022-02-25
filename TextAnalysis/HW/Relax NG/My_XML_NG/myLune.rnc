@@ -1,0 +1,33 @@
+start = root
+root = element root {title?, metadata?,video?, p*}
+
+title = element title {meaning, text}
+    meaning =attribute meaning {"My Moon" | "heart" | "see" | "to close" | "to be" | "my hero" | "pick" | "rose" | "thorn" | "father" | "son" | "draw" | "blood" | "eyes" | "wounds" | "heal" | "heal" | "ills" | "hand" | "child"}
+    specific = attribute specific {"living room" | "my son" | "draws me" | "my hero" | "my ills" | "your hand"}
+
+metadata = element metadata {lang, band}
+    lang = attribute lang {"French"}
+    band = attribute band {"Zaho"}
+
+video = element video {link}
+    link = attribute link {"https://www.youtube.com/watch?v=EjDnBXKaehY"}
+
+p = element p {n*}
+n = element n {mixed {(moon| body| riches | shells | mines | verb | family | room | movies | easy | place | plant | hero | abyss | destiny | asphalt)*}}
+    moon = element moon {text}
+    body = element body {mixed {(meaning, specific?)}}
+    riches = element riches {text}
+    shells = element shells {text}
+    mines = element mines {text}
+    verb = element verb {mixed {(meaning, specific?)}}
+    family = element family {mixed {(meaning, specific?)}}
+    room = element room {mixed {(specific)}}
+    movies = element movies {text}
+    easy = element easy {text}
+    place = element place {text}
+    plant = element plant {mixed {(meaning)}}
+    hero = element hero {mixed {(specific)}}
+    abyss = element abyss {text}
+    destiny = element destiny {text}
+    asphalt = element asphalt {text}
+

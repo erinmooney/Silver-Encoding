@@ -1,0 +1,14 @@
+start = root
+root = element root {title, chapter+}
+
+title = element title {text}
+chapter = element chapter {n, mixed{ (heading | p)* } }
+heading = element heading {text}
+p = element p {n, mixed{ (date | time | q)* } }
+q = element q {wordCount, mixed{ (date | time)* } }
+date = element date {text}
+time = element time {text}
+
+
+n = attribute n {xsd:integer}
+wordCount = attribute wordCount {xsd:integer}

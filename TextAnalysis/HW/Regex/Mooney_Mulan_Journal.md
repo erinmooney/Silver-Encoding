@@ -26,3 +26,25 @@ Don't know why I needed to make it backwards, but it works.
 
 
 I am very sorry, but I had no time for this one (car and medical issues). I will resubmit it before the next assignment. 
+
+
+
+IN CLASS
+
+```\n{3,}``` -> ```\n\n```
+
+```^(.+?)(\n\n)``` -> ```<sp>\1</sp>\2```
+
+```\[.+?\]```->```<stage>\1</stage>```
+
+IMPORTANT:```[[^<]+?\]```
+
+```<sp>[^<]+?:```
+
+```<sp>[^:]+?(?=<st)```
+
+
+
+
+
+

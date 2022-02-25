@@ -1,0 +1,8 @@
+start = xml
+xml = element xml {metadata,(stage | sp)*}
+metadata = element metadata {title, text}
+title = element title {media, date, text}
+
+
+media = attribute media {"radioscript" | "movie"}
+date = attribute date {xsd:date}

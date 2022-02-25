@@ -1,0 +1,11 @@
+start = xml
+xml = element xml {metadata. (stage | sp)+}
+metadata = element metadata {title broadcastInfo, auhor, composer, director, scriptSource, audio, voices, roles}
+title = element title {media, mixed {date?}}
+media = attribute media {"radioscript" | "novel" | "music"}
+date = element date {when, text}
+when = attribute when {xsd:date | xsd:gYear | xsd:gYearMonth}
+
+
+
+

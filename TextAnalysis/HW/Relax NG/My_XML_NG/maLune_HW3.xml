@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="myLune.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <title meaning="My Moon">"Ma Lune"</title>
+    <metadata lang="French" band="Zaho"/>
+    <video link="https://www.youtube.com/watch?v=EjDnBXKaehY"/>
+
+    <p>
+        <n> Je t'ai cherché, je visais <moon>la lune</moon></n>
+        <n> Tu m'as connue <body meaning="heart">le cœur</body> dans la brume</n>
+        <n> Quand l'amour a déserté mon île</n>
+        <n> J'ai écrit entre le marteau et l'enclume</n>
+        <n> Je ne suis pas née dans <riches>la fortune</riches></n>
+        <n> Ma seule <riches>richesse</riches> : ma famille, mes coutumes</n>
+        <n> Je fais l'or dans mes disques et ma plume</n>
+        <n> Et tu seras éternel dans mes projets posthumes</n>
+        <n> Les regards ne seront pas unanimes</n>
+        <n> Pourtant, <verb meaning="to close">fermer</verb>
+            <body meaning="eyes">les yeux</body> est <easy>facile</easy></n>
+        <n> J'ai fait semblant, j'ai fait face au vent</n>
+        <n> Mais face au miroir, je ne <verb meaning="see">vois</verb> qu'un enfant</n>
+        <n> Vaut-il mieux <verb meaning="to be">être</verb> anonyme ?</n>
+        <n> Je n'sais plus qui m'aime ou qui m'abîme</n>
+        <n> Que restera-t-il avec le temps ?</n>
+        <n> Avec le temps, yeah, yeah</n>
+    </p>
+    
+    <p>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, je ne <verb meaning="see">vois</verb> que toi</n>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, <moon>ma lune</moon> et tu m'allumes, eh</n>
+    </p>
+    
+    <p>
+        <n> Mon passé n'est plus qu'un champ de ruines</n>
+        <n> Je marche entre <shells>les douilles</shells> et <mines>les mines</mines></n>
+        <n> Loin de mon <place>Algérie</place>, en exil</n>
+        <n> J'ai rêvé qu'son peuple triomphait, amin</n>
+        <n> La fin n'est jamais comme dans <movies>les films</movies></n>
+        <n> Dans tous les scripts, tu serais <hero specific="my hero">mon héroïne</hero></n>
+        <n> J'ai <verb meaning="pick">cueilli</verb>
+            <plant meaning="rose">la rose</plant> malgré <plant meaning="thorn">l'épine</plant></n>
+        <n> Au milieu <room specific="living room">du salon</room>, <family meaning="son"
+                specific="my son">mon fils</family>
+            <verb meaning="draw" specific="draws me">me dessine</verb></n>
+        <n> Non, sans toi, ma vie serait sans rime</n>
+        <n> J'aurais pas tout l'espoir qui m'anime</n>
+        <n> J'aurais moins d'âme et de sentiments</n>
+        <n> J'aurais jamais rencontré <family meaning="father">l'père</family> de <family
+                meaning="child">mon enfant</family></n>
+        <n> Trop <body meaning="wounds">de blessures</body> dans <abyss>l'abîme</abyss></n>
+        <n> Si on me censure, j'deviens mime</n>
+        <n> Beaucoup d'amour dans <body meaning="blood">le sang</body></n>
+        <n> Coupez le son, je t'aime, Naïm</n>
+    </p>
+    
+    <p>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, je ne <verb meaning="see">vois</verb> que toi</n>
+        <n> Je n'invente pas ces mots pour toi (Pour toi)</n>
+        <n> Tu es <moon>ma lune</moon>, <moon>ma lune</moon> et tu m'allumes, eh</n>
+    </p>
+    
+    <p>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, je ne <verb meaning="see">vois</verb> que toi</n>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, <moon>ma lune</moon> et tu m'allumes, eh</n>
+    </p>
+    
+    <p>
+        <n> Chacun <moon>sa lune</moon>, chacun <destiny>son destin</destiny></n>
+        <n> Chacun <riches>sa fortune</riches></n>
+        <n> Chacun de nous a au moins quelqu'un</n>
+        <n> Qui éclaire <asphalt>son bitume</asphalt></n>
+        <n>
+            <body meaning="heal">Soigne</body>
+            <body meaning="ills" specific="my ills">mes maux</body>, donne-moi <body meaning="hand"
+                specific="your hand">ta main</body></n>
+        <n> Prête-moi ta plume</n>
+        <n> Comme <place>Indochine</place>, quand rien n'est certain</n>
+        <n> Je demande à <moon>la lune</moon>, à <moon>ma lune</moon></n>
+    </p>
+    
+    <p>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, je ne <verb meaning="see">vois</verb> que toi</n>
+        <n> Je n'invente pas ces mots pour toi</n>
+        <n> Tu es <moon>ma lune</moon>, <moon>ma lune</moon> et tu m'allumes, eh</n>
+    </p>
+    
+    <p>
+        <n> Chacun <moon>sa lune</moon>, chacun <destiny>son destin</destiny></n>
+        <n> Chacun <riches>sa fortune</riches></n>
+        <n> Chacun de nous a au moins quelqu'un</n>
+        <n> Qui éclaire <asphalt>son bitume</asphalt></n>
+        <n>
+            <body meaning="heal">Soigne</body>
+            <body meaning="ills" specific="my ills">mes maux</body>, donne-moi <body meaning="hand"
+                specific="your hand">ta main</body></n>
+        <n> Prête-moi ta plume</n>
+        <n> Comme <place>Indochine</place>, quand rien n'est certain</n>
+        <n> Je demande à <moon>la lune</moon>, à <moon>ma lune</moon></n>
+    </p>
+
+</root>
