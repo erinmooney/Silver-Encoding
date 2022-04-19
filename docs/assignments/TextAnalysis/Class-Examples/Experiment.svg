@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>Experiment</desc>
+    <g alignment-baseline="baseline">
+        
+        <g transform="translate(50,500)">
+            <line x1="20" y1="30" x2="500" y2="30" stroke="red" stroke-width="10"/>
+            <line x1="20" y1="0" x2="20" y2="-400" stroke="green" stroke-width="10"/>
+        </g>
+        
+       <!-- 
+        <g class="graphTopBotm">
+            <line x1="20" y1="30" x2="500" y2="30" stroke="purple" stroke-width="10"/>
+        <line x1="20" y1="500" x2="500" y2="500" stroke="purple" stroke-width="10"/>
+        </g>
+        
+        
+        <g class="bar">
+            <line x1="100" y1="200" x2="100" y2="500" stroke="orange" stroke-width="10"/>
+        <circle cx="100" cy="200" r="50" fill="purple"/>
+        </g>
+        
+        
+        <line x1="20" y1="30" x2="20" y2="500" stroke="green" stroke-width="10"/>
+        
+        -->
+
+    </g>
+</svg>

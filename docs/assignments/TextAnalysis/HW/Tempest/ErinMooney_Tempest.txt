@@ -1,0 +1,72 @@
+1. The Tempest, like a typical Shakespearean play, contains five acts, each of which contains scenes. Both acts and scenes are encoded as division (<div>) elements. Scroll into the document far enough so you can see the first act and the first scene to see how this is coded. Now, try writing XPath expressions to answer the following questions:
+
+a. How can XPath tell apart the acts and the scenes?
+    
+    //div shows the two <div> sections defining acts and scenes. The reason why XPath can differentiate them is because of the different attributes corresponding to the <div> elements.
+    
+b. What XPath would find just the acts?
+   
+    //div[@xml:id="sha-tem1"] To grab each Act specifically (just increase the number by 1 each time) (next would be: sha-tem2) -> I do not think this is right, but I am having a hard time remembering this. I think after we discuss it in class I will get better. 
+    
+c. What XPath would find just the scenes?
+   
+    //div/child::head This got some of it. XPath is tricky for me to just jump back into, so I'm sorry. It grabbed the headings but nothing lower, so you can find Scenes with this, just not select it all.
+    
+d. What XPath would find just the scenes inside Act II? (The Results window for the previous questions will give you a good clue: look at the numbers inside square brackets.)
+    
+    //div[@xml:id="sha-tem2"] -> This at least partially grabs what you are looking for.
+    
+
+2. Stage directions (<stage> occur in a variety of places in this XML file.
+
+a. Write an XPath to find all the stage directions in the document wherever they may be.
+    
+    //stage -> grabs all <stage>
+    
+b. Write an XPath to reach into Act 3 and find all the stage directions inside that act.
+   
+    //div//div[@xml:id="sha-tem301"]//stage -> grabs <stage> elements from Act 3
+    
+c. What XPath would find all of the stage directions that are nested inside a metrical line (<l>), that is, between the starting <l> and the ending </l>? How many stage directions are inside lines?
+   
+    //l//stage (79 items) -> This string grabs the <stage> from inside <l>.
+
+d. What XPath would find all of the stage directions that are nested directly inside a speech (<sp>) and outside of the lines within a speech?
+
+    //sp//stage (127 items) -> grabs <stage> from <sp>
+
+e. Run the XPath that finds all the stage directions wherever they are in the whole play again and study the results. Look for stage directions that are not inside a speech (<sp>) or metrical line (<l>). What other element holds stage directions when they are not inside a speech or line?
+
+    <div> ; <div> contains the general and starting information, including the intro <stage> directions.
+
+f. Now, can you write a simple XPath expression that returns all of the stage directions that are not inside a speech or a line? (Check your Results window to make sure none of them are nested inside a speech or line.) How many are there?
+
+    //stage[not(contains('l', 'sp'))]  (149 items) ; this does not seem right, but I don't know how to fix it. 
+
+3. Let's take a look at some attributes in this document. The @ symbol in XPath indicates the attribute axis.
+
+a. Write an XPath to find all the speeches (<sp>) and then step over to isolate their @who attributes. (The Results window shows you just the attribute values.) Record your XPath expression.
+
+    //sp/@who (648 items)
+
+b. Often we use attributes in XPath to filter elements, and isolate, say, only the speeches spoken by a particular character. To filter results, we use a predicate expression written inside square brackets. Look for examples of predicates in our XPath tutorial that filter elements based on their attributes. Then write an XPath expression with a predicate to return all of the speeches in the play spoken by Prospero. Record your expression and how many results you get. Try changing the speaker to Miranda: how many speeches are spoken by her?
+
+    //speaker[text()="Prospero"] (114 items) -> Grabs the <speaker> element for Prospero
+    //speaker[text()="Miranda"] (50 items) -> Grabs the <speaker> element for Miranda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc></desc>
+    <g alignment-baseline="baseline"></g>
+    
+    <g transform="translate(50,500)">
+        <text x="35" y="-460" style="fill: #black; stroke: none; font-size: 25px;">Relative Size of Three Polynesian Islands</text>
+        
+        <text x="70" y="60" style="font-size: 25px">Tahiti</text>
+             <text x="50" y="-410" style="font-size: 25px">404 sq mi</text>
+        <text x="210" y="60" style="font-size: 25px">Raiatea</text>
+                <text x="210" y="-75" style="font-size: 25px">65 sq mi</text>
+        <text x="350" y="60" style="font-size: 24px">Tongatapu</text>
+             <text x="350" y="-110" style="font-size: 25px">100 sq mi</text>
+       
+    </g>
+    
+    <g transform="translate(50,500)">
+        <line x1="20" y1="-445" x2="500" y2="-445" stroke="purple" stroke-width="10"/>
+        <line x1="15" y1="30" x2="500" y2="30" stroke="purple" stroke-width="10"/>
+
+        <line x1="20" y1="35" x2="20" y2="-450" stroke="purple" stroke-width="10"/>
+        <line x1="500" y1="35" x2="500" y2="-450" stroke="purple" stroke-width="10"/>
+    </g>
+    
+    
+    <g transform="translate(50,500)">
+        <line x1="100" y1="35" x2="100" y2="-404" stroke="green" stroke-width="100"/>
+        <line x1="250" y1="35" x2="250" y2="-65" stroke="red" stroke-width="100"/>
+        <line x1="400" y1="35" x2="400" y2="-100" stroke="blue" stroke-width="100"/>
+        
+    </g>
+    
+    
+</svg>
